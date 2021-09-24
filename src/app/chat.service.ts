@@ -5,6 +5,7 @@ interface IMessagesOperation extends Function {
   (messages: string[]): string[];
 }
 
+
 @Injectable()
 export class ChatService {
   newMessages: Subject<string> = new Subject<string>();

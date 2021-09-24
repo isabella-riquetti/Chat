@@ -6,7 +6,7 @@
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-variant-caps: small-caps;
-    font-size: 20px;
+    font-size: 22px;
 
     ul {
         list-style-type: none;
@@ -17,4 +17,19 @@
     background:#F0F0F0;
     width:75%;
     height:100vh;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    ul {
+        list-style-type: none;
+
+        span.system {
+            color: gray;
+        }
+    }
+}
+.send-message {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
 }
