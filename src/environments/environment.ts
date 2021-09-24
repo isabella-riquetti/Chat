@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: ''
+  url: 'wss://kqmieqbsig.execute-api.us-west-2.amazonaws.com/production'
 };
 
 /*

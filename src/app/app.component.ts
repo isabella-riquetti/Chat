@@ -13,7 +13,6 @@ export class Message {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  url: string = 'wss://kqmieqbsig.execute-api.us-west-2.amazonaws.com/production';
   name: string = '';
   names: string[] = new Array();
   messages: any[] = new Array();

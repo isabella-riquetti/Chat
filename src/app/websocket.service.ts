@@ -10,7 +10,6 @@ const subject = webSocket(environment.url);
 
 export class WebsocketService {
   constructor(messagesService: ChatService) {     
-    debugger;
     subject.subscribe(
       msg => 
         messagesService.addMessage(JSON.stringify(msg)),
