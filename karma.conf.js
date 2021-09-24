@@ -4,6 +4,10 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
+    entry: [
+        "webpack-dev-server/client?http://localhost:4200/",
+        "webpack/hot/only-dev-server"
+    ],
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),

@@ -1,0 +1,20 @@
+.members {
+    float:left; 
+    background:#530971;
+    width:25%;
+    height:100vh;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 20px;
+
+    ul {
+        list-style-type: none;
+    }
+}
+.chat {
+    float:right;
+    background:#F0F0F0;
+    width:75%;
+    height:100vh;
+}
